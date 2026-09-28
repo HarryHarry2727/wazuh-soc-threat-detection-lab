@@ -42,3 +42,12 @@ The environment consists of two Ubuntu virtual machines running on an Apple Sili
                             |
                             v
                      Wazuh Dashboard
+## Screenshots
+
+### Wazuh SOC Dashboard
+
+![Wazuh Dashboard](screenshots/wazuh-dashboard.png)
+
+### Wazuh Security Alerts
+
+![Wazuh Alerts](screenshots/wazuh-alerts.png)
