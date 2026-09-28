@@ -1,0 +1,9 @@
+<rule id="100100" level="12" frequency="3" timeframe="120">
+    <if_matched_sid>5710</if_matched_sid>
+    <same_srcip />
+    <description>Custom SOC Alert: 3 failed SSH login attempts for an invalid user within 120 seconds</description>
+    <mitre>
+        <id>T1110</id>
+    </mitre>
+    <group>authentication_failed,ssh,custom_soc,brute_force,</group>
+</rule>
